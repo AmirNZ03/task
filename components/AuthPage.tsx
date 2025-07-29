@@ -2,8 +2,8 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import styles from "../src/app/auth/auth.module.scss";
-import Button from "@/app/Button";
-import Input from "@/app/Input";
+import Button from "./Button";
+import Input from "./Input";
 import { z } from "zod";
 
 const schema = z.object({
